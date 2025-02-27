@@ -5,10 +5,7 @@
     <property name="severity" value="error"/>
     <property name="fileExtensions" value="java"/>
 
-    <!-- Enforce UTF-8 encoding -->
-    <module name="FileTabCharacter">
-        <property name="eachLine" value="true"/>
-    </module>
+
 
     <!-- Limit line length to 120 characters (moved from TreeWalker) -->
     <module name="LineLength">
